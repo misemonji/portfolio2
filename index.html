@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYANO KAJIMOTO | portfolio site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nano_header">
+        <div class="header_left">
+            <img src="logo.png" alt="nano.logo">
+        </div>
+        <div class="header_center">
+            <a rel="#"></a>
+        </div>
+        <div class="header_right">
+            <div class="glovaltab">
+                <div class="tab">
+                    <a href="#">◻︎ ホーム</a>
+                </div>
+                <div class="tab">
+                    <a href="#">◻︎ 制作実績</a>
+                </div>
+                <div class="tab">
+                    <a href="#">◻︎ 私について</a>
+                </div>
+                <div class="tab">
+                    <a href="#">◻︎ お問い合わせ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main1">
+            <img src="mainimg.png" alt="mainimg">
+        </div>
+
+        <div class="main2">
+            <div class="title">
+                <p>制作実績</p>
+            </div>
+
+            <div class="sakuhin">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="site1.png" alt="サイト名１">
+                            <p>portfolio site</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="site2.png" alt="サイト名２">
+                            <p>sandwich cafe site</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="sns.png" alt="サイト名３">
+                            <p>sns運用（ドラマ切り抜き）</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="movieed.png" alt="サイト名３">
+                            <p>動画編集</p>
+                        </a>
+                    </li>
+                    <ul>
+            </div>
+        </div>
+
+        <div class="main2">
+            <div class="title">
+                <p>私について</p>
+            </div>
+
+            <div class="aboutnakami">
+                <div class="aboutpic">
+                    <img src="me.jpg" alt="picture">
+                </div>
+                <div class="abouttext">
+                    <p><br>
+                        <b>nano</b>
+                        <br>群馬県出身 1999年生まれ。<br>
+                        高校卒業後、韓国の大学へ進学。哲学、文化コンテンツを専攻として学ぶ。<br>
+                        韓国語：日常会話、ビジネス可能<br>
+                        デザインに興味をもち、2024年からWebデザインを学び始める。<br>
+                        現在、副業サイトでイラスト出品中。SNSアカウント運用中。
+                    </p>
+                    <br>
+                    <a href="#">more></a>
+                </div>
+            </div>
+        </div>
+
+        <form action="https://formspree.io/f/meoyzlll" method="POST">
+
+            <!-- お名前 -->
+            <label>
+                <p>お名前（フルネーム）:</p>
+                <input type="text" name="name" required>
+            </label>
+        
+            <!-- メールアドレス -->
+            <label>
+                <p>メールアドレス:</p>
+                <input type="email" name="email" required>
+            </label>
+        
+            <!-- 電話番号 -->
+            <label>
+                <p>電話番号（任意）:</p>
+                <input type="tel" name="phone" placeholder="090-1234-5678">
+            </label>
+        
+            <!-- 件名 -->
+            <label>
+                <p>件名:</p>
+                <input type="text" name="subject" required>
+            </label>
+        
+            <!-- お問い合わせ種別 -->
+            <label>
+                <p>お問い合わせ種別:</p>
+                <select name="category" required>
+                    <option value="">選択してください</option>
+                    <option value="service">サービスについて</option>
+                    <option value="trouble">不具合・トラブル</option>
+                    <option value="request">ご依頼・ご相談</option>
+                    <option value="other">その他</option>
+                </select>
+            </label>
+        
+            <!-- 希望の返信方法 -->
+            <label>
+                <p>希望の返信方法:</p>
+                <select name="contact_method">
+                    <option value="email">メールでの返信を希望</option>
+                    <option value="phone">電話での返信を希望</option>
+                    <option value="either">どちらでもよい</option>
+                </select>
+            </label>
+        
+            <!-- メッセージ -->
+            <label>
+                <p>お問い合わせ内容:</p>
+                <textarea name="message" rows="5" required></textarea>
+            </label>
+        
+            <!-- 同意確認チェック -->
+            <label>
+                <input type="checkbox" name="agree" required>
+                個人情報の取り扱いに同意します
+            </label>
+        
+            <button type="submit">送信する</button>
+        </form>
+        
+
+    </main>
+    <footer>
+        <small>© 2025 Kajimonto.</small>
+    </footer>
+</body>
+
+</html>
